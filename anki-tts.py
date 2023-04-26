@@ -23,7 +23,7 @@ def generate_audio_apkg(input_path, output_path, audio_path, text_index, speech_
 
         # Modify the notes in the collection
         for note_id in collection.find_notes(""):
-            print(note_id)
+
             note = collection.get_note(note_id)
 
             # Get the French text from the note
